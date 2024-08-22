@@ -93,7 +93,7 @@ if result:
         input_language = "de"
     elif in_lang == "Portugués":
         input_language = "pt"
-     elif in_lang == "Ruso":
+    elif in_lang == "Ruso":
         input_language = "ru"
     
     out_lang = st.selectbox(
@@ -118,7 +118,7 @@ if result:
         output_language = "de"
     elif out_lang == "Portugués":
         output_language = "pt"
-     elif out_lang == "Ruso":
+    elif out_lang == "Ruso":
         output_language = "ru"
     
     
