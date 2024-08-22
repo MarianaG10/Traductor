@@ -93,10 +93,12 @@ if result:
         input_language = "de"
     elif in_lang == "Portugués":
         input_language = "pt"
+     elif in_lang == "Ruso":
+        input_language = "ru"
     
     out_lang = st.selectbox(
         "Selecciona el lenguaje de salida",
-        ("Inglés", "Español", "Bengali", "Coreano", "Mandarín", "Japonés", "Finlandés", "Alemán", "Portugués"),
+        ("Inglés", "Español", "Bengali", "Coreano", "Mandarín", "Japonés", "Finlandés", "Alemán", "Portugués", "Ruso"),
     )
     if out_lang == "Inglés":
         output_language = "en"
@@ -116,6 +118,9 @@ if result:
         output_language = "de"
     elif out_lang == "Portugués":
         output_language = "pt"
+     elif out_lang == "Ruso":
+        output_language = "ru"
+    
     
     english_accent = st.selectbox(
         "Selecciona el acento",
